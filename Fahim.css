@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation Bar */
+#navbar {
+  background-color: #507882;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  /* z-index: 1000; */
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  margin: 0 15px;
+}
+
+#navbar a {
+  font-size: 1rem;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+  background-color: #e1eff0;
+  color: black;
+}
+
+/* Header Section */
+#header {
+  text-align: center;
+  background-color: #ddd5d5;
+  color: white;
+  padding: 40px 20px;
+}
+
+.profile-container {
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+/* Section Styling */
+.section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section:hover {
+  background-color: #ececec;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Experiences Section */
+#experiences .experience-item {
+  margin-bottom: 15px;
+}
+
+#experiences h3 {
+  margin-bottom: 5px;
+}
+
+#experiences p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Education Section */
+#education .education-item {
+  margin-bottom: 15px;
+}
+
+#education h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+#education p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Skills Section */
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+/* Interests Section */
+#interests p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+#Projects {
+  text-align: center;
+}
+
+.Portfolio {
+  position: sticky;
+  background-color: #f0e9df;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  object-position: center;
+}
+
+.Portfolio ul {
+  display: flex;
+}
+
+.Portfolio_pic {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  border: 4px solid white;
+
+  object-fit: cover;
+}
+
+.Portfolio h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.award_pic {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 4px solid white;
+  object-fit: contain;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  align-items: center;
+  text-align: center;
+}
+
+.logo_align {
+  display: flex;
+  position: sticky;
+  margin: auto;
+  max-width: 275px;
+  text-align: center;
+  object-position: center;
+}
+
+.white_letering {
+  color: white;
+}
